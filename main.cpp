@@ -1,4 +1,5 @@
 #include <iostream>
+#include "evenChecker.h"
 
 int if_statements() {
 
@@ -79,7 +80,9 @@ int add_loops() {
 
 int main() {
 
-    if_statements();
+
+    isEven(3);
+    //if_statements();
     // unknown_quantity_for();
     // for_loops();
     // add_loops();
